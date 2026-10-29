@@ -8,11 +8,11 @@
 
 :root {
   /* colors */
-  --primary-color: #0ea5a4;
-  --secondary-color: #22c55e;
-  --accent-color: #0284c7;
-  --dark-color: #064e3b;
-  --light-bg: #f0fdfa;
+  --primary-color: #e4002b;
+  --secondary-color: #e93355;
+  --accent-color: #ef6680;
+  --dark-color: #2e0009;
+  --light-bg: #faccd5;
   --light-section-bg: #ecfeff;
   --white: #ffffff;
   --text-color: #1f2937;
@@ -40,4 +40,12 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--light-bg);
+}
+
+header {
+  background-color: #2e0009;
 }
