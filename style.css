@@ -4,3 +4,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* CSS Variables */
+
+:root {
+  /* colors */
+  --primary-color: #0ea5a4;
+  --secondary-color: #22c55e;
+  --accent-color: #0284c7;
+  --dark-color: #064e3b;
+  --light-bg: #f0fdfa;
+  --light-section-bg: #ecfeff;
+  --white: #ffffff;
+  --text-color: #1f2937;
+  --border-color: #e5e7eb;
+
+  /* spacing */
+  --space-small: 0.5rem;
+  --space-medium: 1rem;
+  --space-large: 2rem;
+  --space-xl: 2.5rem;
+  --space-section: 3.75rem;
+
+  /* font sizes */
+  --text-small: 0.875rem;
+  --text-base: 1rem;
+  --text-medium: 1.25rem;
+  --text-large: 1.875rem;
+  --text-xl: 2.5rem;
+
+  /* other */
+  --radius: 0.625rem;
+}
+
+/* Global Styling */
+
+html {
+  scroll-behavior: smooth;
+}
