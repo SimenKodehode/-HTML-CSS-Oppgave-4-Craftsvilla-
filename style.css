@@ -119,13 +119,14 @@ h1 {
   justify-content: center;
   align-items: center;
   margin: var(--space-small);
+  gap: var(--space-medium);
 
   /* generic button and anchortag styling */
 }
 button {
   background-color: var(--white);
   border: 1px solid var(--dark-color);
-  margin: var(--space-small);
+  margin-bottom: var(--space-small);
   padding: var(--space-small) var(--space-medium);
   border-radius: var(--radius);
 }
@@ -134,7 +135,7 @@ a {
   background-color: var(--white);
   color: var(--dark-color);
   border: 1.5px solid var(--dark-color);
-  margin: var(--space-small);
+  margin-bottom: var(--space-small);
   padding: var(--space-small) var(--space-medium);
   border-radius: var(--radius);
 }
@@ -145,7 +146,7 @@ a {
   border: none;
 }
 
-/* Card  */
+/* Card Styling */
 .card-section {
   height: 90vb;
   width: 100%;
@@ -165,7 +166,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 30%;
+  width: 30%;
 }
 
 .card-img {
