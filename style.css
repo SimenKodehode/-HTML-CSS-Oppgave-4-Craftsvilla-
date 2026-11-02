@@ -38,6 +38,7 @@
 
   /* other */
   --radius: 1rem;
+  --radius-small: 0.5rem;
 }
 
 /* Global Styling */
@@ -55,6 +56,7 @@ body {
 img {
   width: 100%;
   height: auto;
+  margin-bottom: var(--space-medium);
 }
 h1,
 h2,
@@ -145,8 +147,8 @@ a {
 
 /* Card  */
 .card-section {
-  height: 100vb;
-  width: auto;
+  height: 90vb;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -155,8 +157,10 @@ a {
 
 .card {
   border: 1px solid var(--off-white);
-  padding: var(--space-large);
-  margin: var(--space-large);
+  border-radius: var(--radius-small);
+  background-color: var(--off-white);
+  padding: var(--space-large) var(--space-small);
+  margin: var(--space-large) var(--space-small);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,6 +172,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: var(--radius) var(--radius) 0 0;
   width: 90%;
 }
 
