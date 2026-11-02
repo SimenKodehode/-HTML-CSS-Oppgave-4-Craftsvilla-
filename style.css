@@ -72,7 +72,7 @@ p {
 header {
   background-color: var(--white);
   height: auto;
-  max-height: 10vb;
+  max-height: 10vh;
   display: flex;
   justify-content: space-between;
 }
@@ -93,7 +93,7 @@ h1 {
 #hero {
   display: flex;
   width: 100%;
-  height: 70vb;
+  height: 70vh;
 }
 
 #hero-video {
@@ -111,7 +111,7 @@ h1 {
 
 .herotext {
   border-bottom: var(--off-white) 1px solid;
-  height: 20vb;
+  height: 20vh;
 }
 
 .btn-box {
