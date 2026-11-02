@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
 /* CSS Variables */
@@ -12,11 +14,8 @@
   --secondary-color: #e93355;
   --accent-color: #ef6680;
   --dark-color: #2e0009;
-  --light-bg: #faccd5;
-  --light-section-bg: #ecfeff;
+  --off-white: #efefef;
   --white: #ffffff;
-  --text-color: #1f2937;
-  --border-color: #e5e7eb;
 
   /* spacing */
   --space-small: 0.5rem;
@@ -32,8 +31,13 @@
   --text-large: 1.875rem;
   --text-xl: 2.5rem;
 
+  /* Font types */
+  --font-logo: "Syne", sans-serif;
+  --font-heading: "Fraunces", serif;
+  --font-body: "DM Sans", sans-serif;
+
   /* other */
-  --radius: 0.625rem;
+  --radius: 1rem;
 }
 
 /* Global Styling */
@@ -44,17 +48,36 @@ html {
 
 body {
   background-color: var(--white);
+  font-family: var(--font-body);
+  color: var(--dark-color);
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+}
+
+#logo {
+  font-family: var(--font-logo);
 }
 
 header {
-  background-color: var(--light-section-bg);
+  background-color: var(--white);
   height: auto;
   max-height: 10vb;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
 }
 h1 {
   margin: var(--space-large);
+  font-size: var(--text-xl);
+}
+
+#logo {
+  margin: var(--space-medium);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: var(--text-xl);
 }
 
@@ -69,4 +92,50 @@ h1 {
   height: 100%;
   object-fit: cover;
   object-position: top;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--space-small);
+}
+
+.herotext {
+  border-bottom: #efefef 1px solid;
+  height: 20vb;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--space-small);
+
+  /* generic button and anchortag styling */
+}
+button {
+  background-color: var(--white);
+  border: 1px solid black;
+  margin: var(--space-small);
+  padding: var(--space-small) var(--space-medium);
+  border-radius: var(--radius);
+}
+
+a {
+  background-color: var(--white);
+  color: var(--dark-color);
+  border: 1.5px solid black;
+  margin: var(--space-small);
+  padding: var(--space-small) var(--space-medium);
+  border-radius: var(--radius);
+}
+/* membership button styling */
+.membership {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+}
+.card-section {
+  height: 100vb;
+  width: auto;
 }
