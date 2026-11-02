@@ -4,8 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* CSS Variables */
 
+/* CSS Variables */
 :root {
   /* colors */
   --primary-color: #e4002b;
@@ -43,9 +43,30 @@ html {
 }
 
 body {
-  background-color: var(--light-bg);
+  background-color: var(--white);
 }
 
 header {
-  background-color: #2e0009;
+  background-color: var(--light-section-bg);
+  height: auto;
+  max-height: 10vb;
+  display: flex;
+  justify-content: end;
+}
+h1 {
+  margin: var(--space-large);
+  font-size: var(--text-xl);
+}
+
+#hero {
+  display: flex;
+  width: 100%;
+  height: 70vb;
+}
+
+#hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
 }
