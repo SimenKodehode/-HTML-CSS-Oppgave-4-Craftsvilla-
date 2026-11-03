@@ -81,6 +81,14 @@ h1 {
   font-size: var(--text-xl);
 }
 
+#workshop-h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--space-large) var(--space-xl);
+  font-size: var(--text-large);
+}
+
 #logo {
   margin: var(--space-medium);
   display: flex;
@@ -175,6 +183,9 @@ a {
   align-items: center;
   border-radius: var(--radius) var(--radius) 0 0;
   width: 90%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 4/3;
 }
 
 .card-text {
