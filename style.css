@@ -82,6 +82,12 @@ h1 {
   font-size: var(--text-xl);
 }
 
+footer {
+  height: 50vh;
+  background-color: var(--off-white);
+  color: var(--white);
+}
+
 #workshop-h2 {
   display: flex;
   justify-content: center;
