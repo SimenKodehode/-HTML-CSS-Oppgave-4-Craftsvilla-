@@ -209,9 +209,12 @@ a {
 }
 
 #about {
-  max-width: 40%;
+  max-width: 60ch;
 }
 
+address {
+  max-width: 30ch;
+}
 .text-box {
   margin: var(--space-small);
 }
