@@ -45,34 +45,87 @@
           <a href="">Where to find us</a>
         </div>
       </section>
+      <section>
+        <h2>Workshops</h2>
+      </section>
       <section class="card-section">
         <article class="card">
           <img src="media/kjell-holm.jpg" alt="" class="card-img" />
           <div class="card-text">
-            <h2>Kjell Holm</h2>
-            <p>Text goes here</p>
-            <a href="">Click Me</a>
+            <h2>Canvas painting</h2>
+            <p>
+              The set contains: Frame, acrylic paper with design template,
+              acrylic paints, brushes
+            </p>
+            <p>300kr</p>
+            <button popovertarget="workshop-order">Order</button>
           </div>
         </article>
         <article class="card">
           <img src="media/workshop.jpg" alt="" class="card-img" />
           <div class="card-text">
-            <h2>Workshop</h2>
-            <p>Text goes here</p>
-            <a href="">Click Me</a>
+            <h2>Watercolor painting</h2>
+            <p>
+              The set contains: Frame, watercolor paper with design template,
+              watercolor paints, brushes
+            </p>
+            <p>200kr</p>
+            <button popovertarget="workshop-order">Order</button>
           </div>
         </article>
         <article class="card">
           <img src="" alt="" class="card-img" />
           <div class="card-text">
-            <h2>Title here</h2>
-            <p>Text goes here</p>
-            <a href="">Click Me</a>
+            <h2>Mosaic art</h2>
+            <p>
+              The set contains: Frame, A4 wooden board, small colored stones,
+              glue
+            </p>
+            <p>400kr</p>
+            <button popovertarget="workshop-order">Order</button>
           </div>
         </article>
       </section>
+
+      <!-- Form popup -->
+      <div id="workshop-order" class="popup" popover>
+        <form class="order-form">
+          <h2>Book a workshop spot</h2>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="date">Preferred date</label>
+          <input type="date" id="date" name="date" required />
+
+          <label for="participants">Number of participants</label>
+          <input
+            type="number"
+            id="participants"
+            name="participants"
+            min="1"
+            max="20"
+            value="1"
+            required
+          />
+
+          <div class="btn-box">
+            <button
+              type="button"
+              popovertarget="workshop-order"
+              popovertargetaction="hide"
+            >
+              Cancel
+            </button>
+            <button type="submit" class="submit">Submit</button>
+          </div>
+        </form>
+      </div>
     </main>
     <!-- FOOTER -->
-    <footer></footer>
+    <footer>h</footer>
   </body>
 </html>

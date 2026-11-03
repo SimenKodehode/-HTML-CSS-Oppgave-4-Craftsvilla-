@@ -72,7 +72,7 @@ p {
 header {
   background-color: var(--white);
   height: auto;
-  max-height: 10vh;
+  /* height: 10vh; */
   display: flex;
   justify-content: space-between;
 }
