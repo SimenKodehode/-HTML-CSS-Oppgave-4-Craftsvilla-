@@ -83,7 +83,7 @@ h1 {
 }
 
 footer {
-  height: 50vh;
+  max-height: 50vh;
   background-color: var(--off-white);
   color: var(--dark-color);
   display: flex;
