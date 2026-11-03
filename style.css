@@ -85,8 +85,9 @@ h1 {
 footer {
   height: 50vh;
   background-color: var(--off-white);
-  color: var(--white);
+  color: var(--dark-color);
   display: flex;
+  justify-content: space-between;
 }
 
 #workshop-h2 {
@@ -205,4 +206,26 @@ a {
 
 #location {
   display: flex;
+}
+
+#about {
+  max-width: 40%;
+}
+
+.text-box {
+  margin: var(--space-small);
+}
+.text-box h2 {
+  margin-bottom: var(--space-medium);
+}
+.text-box li {
+  margin-bottom: var(--space-small);
+}
+.text-box address {
+  margin-bottom: var(--space-small);
+}
+
+iframe {
+  border-radius: var(--radius-small);
+  margin: var(--space-small);
 }
