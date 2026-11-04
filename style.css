@@ -204,6 +204,28 @@ a {
   align-items: start;
 }
 
+/* Popup styling */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  max-width: 90vw;
+  max-height: 90vh;
+  padding: var(--space-large);
+  background: var(--off-white);
+  border-radius: var(--radius-small);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+}
+.order-form {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-medium);
+  margin-bottom: var(--space-small);
+  color: var(--dark-color);
+}
 #location {
   display: flex;
 }
