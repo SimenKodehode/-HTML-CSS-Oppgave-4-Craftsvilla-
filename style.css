@@ -216,6 +216,7 @@ a {
   padding: var(--space-large);
   background: var(--off-white);
   border-radius: var(--radius-small);
+  border: none;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 .popup::backdrop {
@@ -225,8 +226,11 @@ a {
   display: flex;
   flex-direction: column;
   padding: var(--space-medium);
-  margin-bottom: var(--space-small);
   color: var(--dark-color);
+}
+.order-form .order-form label,
+input {
+  margin-bottom: var(--space-medium);
 }
 #location {
   display: flex;
