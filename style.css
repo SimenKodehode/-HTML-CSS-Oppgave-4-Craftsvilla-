@@ -156,8 +156,8 @@ a {
   padding: var(--space-small) var(--space-medium);
   border-radius: var(--radius);
 }
-/* membership button styling */
-.membership {
+/* red button styling */
+.red-btn {
   background-color: var(--primary-color);
   color: var(--white);
   border: none;
