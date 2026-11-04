@@ -1,4 +1,4 @@
-/* CSS RESET */
+/* css reset */
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
   list-style: none;
 }
 
-/* CSS Variables */
+/* css variables */
 :root {
   /* colors */
   --primary-color: #e4002b;
@@ -41,7 +41,7 @@
   --radius-small: 0.5rem;
 }
 
-/* Global Styling */
+/* global Styling */
 
 html {
   scroll-behavior: smooth;
@@ -74,7 +74,7 @@ h1 {
 p {
   margin-bottom: var(--space-medium);
 }
-
+/* header styling */
 header {
   background-color: var(--white);
   height: 10vh;
@@ -83,7 +83,7 @@ header {
   justify-content: space-between;
   border-bottom: 2px var(--off-white) solid;
 }
-
+/* footer styling */
 footer {
   max-height: 50vh;
   background-color: var(--off-white);
@@ -109,7 +109,7 @@ footer {
   font-size: var(--text-xl);
   font-family: var(--font-logo);
 }
-
+/* hero styling */
 #hero {
   display: flex;
   width: 100%;
@@ -133,7 +133,7 @@ footer {
   border-bottom: var(--off-white) 1px solid;
   height: 20vh;
 }
-
+/* button container styling */
 .btn-box {
   display: flex;
   width: auto;
@@ -161,6 +161,7 @@ a {
   border-radius: var(--radius);
 }
 
+/* button and anchortags hover/active effects */
 button:hover {
   transform: scale(1.05);
 }
@@ -182,7 +183,7 @@ a:active {
   border: none;
 }
 
-/* Card Styling */
+/* workshop card Styling */
 .card-section {
   height: 90vb;
   width: 100%;
@@ -191,7 +192,7 @@ a:active {
   align-items: center;
   gap: var(--space-large);
 }
-/* card styling */
+
 .card {
   border: 1px solid var(--off-white);
   border-radius: var(--radius-small);
@@ -204,7 +205,7 @@ a:active {
   flex-direction: column;
   width: 30%;
 }
-/* card img styling */
+/* workshop card image styling */
 .card-img {
   display: flex;
   justify-content: center;
@@ -215,7 +216,7 @@ a:active {
   object-position: center;
   aspect-ratio: 4/3;
 }
-/* card text styling */
+/* workshop card text styling */
 .card-text {
   width: 90%;
   display: flex;
@@ -223,7 +224,7 @@ a:active {
   align-items: start;
 }
 
-/* Popup styling */
+/* popup form styling */
 .popup {
   position: fixed;
   top: 50%;
@@ -255,10 +256,11 @@ input {
   display: flex;
 }
 
+/* footer about section text styling */
 #about {
   max-width: 60ch;
 }
-
+/* footer address section text styling */
 address {
   max-width: 30ch;
 }
@@ -281,6 +283,7 @@ iframe {
   margin: var(--space-small);
 }
 
+/* gallery image styling */
 #gallery-box {
   display: flex;
   flex-wrap: wrap;
@@ -293,6 +296,8 @@ iframe {
   padding: var(--space-small);
   border-radius: var(--radius-small);
 }
+
+/* gallery image and anchortags hover/active effects */
 
 .gallery-img:hover {
   transform: scale(1.1);
