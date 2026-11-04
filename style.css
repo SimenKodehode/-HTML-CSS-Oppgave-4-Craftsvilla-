@@ -65,6 +65,10 @@ h3 {
   margin-bottom: var(--space-small);
 }
 
+h1 {
+  margin: var(--space-large);
+  font-size: var(--text-xl);
+}
 p {
   margin-bottom: var(--space-medium);
 }
@@ -76,10 +80,6 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 2px var(--off-white) solid;
-}
-h1 {
-  margin: var(--space-large);
-  font-size: var(--text-xl);
 }
 
 footer {
@@ -97,7 +97,7 @@ footer {
   margin: var(--space-large) var(--space-xl);
   font-size: var(--text-large);
 }
-
+/* logo styling */
 #logo {
   margin: var(--space-medium);
   display: flex;
@@ -147,7 +147,7 @@ button {
   padding: var(--space-small) var(--space-medium);
   border-radius: var(--radius);
 }
-
+/* anchor tag styling */
 a {
   background-color: var(--white);
   color: var(--dark-color);
@@ -172,7 +172,7 @@ a {
   align-items: center;
   gap: var(--space-large);
 }
-
+/* card styling */
 .card {
   border: 1px solid var(--off-white);
   border-radius: var(--radius-small);
@@ -185,7 +185,7 @@ a {
   flex-direction: column;
   width: 30%;
 }
-
+/* card img styling */
 .card-img {
   display: flex;
   justify-content: center;
@@ -196,7 +196,7 @@ a {
   object-position: center;
   aspect-ratio: 4/3;
 }
-
+/* card text styling */
 .card-text {
   width: 90%;
   display: flex;
@@ -215,6 +215,7 @@ a {
 address {
   max-width: 30ch;
 }
+/* text box styling */
 .text-box {
   margin: var(--space-small);
 }
@@ -227,7 +228,7 @@ address {
 .text-box address {
   margin-bottom: var(--space-small);
 }
-
+/* Gmap styling */
 iframe {
   border-radius: var(--radius-small);
   margin: var(--space-small);
