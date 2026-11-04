@@ -217,6 +217,8 @@ a {
   background: var(--off-white);
   border-radius: var(--radius-small);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+.popup::backdrop {
   backdrop-filter: blur(4px);
 }
 .order-form {
