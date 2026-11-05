@@ -249,8 +249,10 @@ a:active {
   padding: var(--space-medium);
   color: var(--dark-color);
 }
-.order-form .order-form label,
-input {
+.order-form label {
+  margin-bottom: var(--space-small);
+}
+.order-form input {
   margin-bottom: var(--space-medium);
 }
 #location {
