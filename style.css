@@ -139,7 +139,8 @@ footer {
   width: auto;
   justify-content: center;
   align-items: center;
-  margin: var(--space-small) 30px var(--space-small) var(--space-small);
+  margin: var(--space-small) var(--space-large) var(--space-small)
+    var(--space-small);
   gap: var(--space-medium);
 
   /* generic button and anchortag styling */
